@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="app-layout">
       <div className="container">
-        <h2>🌧️ Rain Alert Signup</h2>
+        <h2>🌧️ Rain Alert Bot</h2>
         <form onSubmit={handleSubmit} className="form">
           <input
             type="text"
