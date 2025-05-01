@@ -44,7 +44,6 @@ cd rain-alert-whatsapp-bot
 Create a `.env` file in the root of the backend directory and add:
 
 ```env
-PORT=5000
 MONGO_URI=your_mongodb_connection_string
 OPENWEATHER_API_KEY=your_openweathermap_api_key
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
@@ -84,44 +83,21 @@ npm start
 
 The frontend will be available at `http://localhost:3000` and the backend at `http://localhost:5000`.
 
----
-
-## 🧪 Testing Alerts
-
-You can trigger a manual test alert using the following endpoint:
-
-```http
-POST /api/test-alert
-```
-
-Include a JSON body with a registered user’s phone number or location.
-
----
-
-## 📅 Cron Job
-
-A background cron job runs **every hour** to:
-
-1. Fetch weather data for each registered user’s location.
-2. If rain is detected, send a WhatsApp alert via Twilio.
-
----
+--
 
 ## 🙌 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss your idea.
 
----
+--
 
 ## 📄 License
 
 This project is licensed under the MIT License.
 
----
+--
 
 ## 📬 Contact
 
 Created by [Madhav Tiwari](https://github.com/ermadhav)  
 For any questions, feel free to open an issue or contact directly.
-
-```
