@@ -1,8 +1,3 @@
-Here’s a professional and complete `README.md` file for your **Rain Alert WhatsApp Bot** project:
-
----
-
-
 ### 🌧️ Rain Alert WhatsApp Bot
 
 Automatically receive WhatsApp notifications when it's about to rain in your area! This full-stack web application allows users to register their location and phone number to get timely rain alerts via WhatsApp.
@@ -61,13 +56,13 @@ TWILIO_PHONE_NUMBER=your_twilio_phone_number
 
 #### Backend
 ```bash
-cd backend
+cd server
 npm install
 ```
 
 #### Frontend
 ```bash
-cd ../frontend
+cd ../client
 npm install
 ```
 
@@ -77,13 +72,13 @@ npm install
 
 ### Start Backend
 ```bash
-cd backend
+cd server
 npm start
 ```
 
 ### Start Frontend
 ```bash
-cd ../frontend
+cd ../client
 npm start
 ```
 
@@ -126,7 +121,7 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-Created by [Your Name](https://github.com/yourusername)  
+Created by [Your Name](https://github.com/ermadhav)  
 For any questions, feel free to open an issue or contact directly.
 
 ```
