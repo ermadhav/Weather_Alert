@@ -2,7 +2,7 @@
 
 Automatically receive WhatsApp notifications when it's about to rain in your area! This full-stack web application allows users to register their location and phone number to get timely rain alerts via WhatsApp.
 
----
+--
 
 ## 🚀 Features
 
@@ -13,7 +13,7 @@ Automatically receive WhatsApp notifications when it's about to rain in your are
 - 🕒 Hourly cron job to check and notify all affected users  
 - 🔔 Manual test alert trigger to verify notification setup  
 
----
+--
 
 ## 🛠️ Tech Stack
 
@@ -29,7 +29,7 @@ Automatically receive WhatsApp notifications when it's about to rain in your are
 - OpenWeatherMap API  
 - node-cron  
 
----
+--
 
 ## 📦 Installation
 
@@ -65,7 +65,7 @@ cd ../client
 npm install
 ```
 
----
+--
 
 ## ▶️ Running the App
 
