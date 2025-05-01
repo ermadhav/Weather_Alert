@@ -2,8 +2,8 @@ Here’s a professional and complete `README.md` file for your **Rain Alert What
 
 ---
 
-```markdown
-# 🌧️ Rain Alert WhatsApp Bot
+
+### 🌧️ Rain Alert WhatsApp Bot
 
 Automatically receive WhatsApp notifications when it's about to rain in your area! This full-stack web application allows users to register their location and phone number to get timely rain alerts via WhatsApp.
 
