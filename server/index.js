@@ -5,7 +5,6 @@ const cron = require('node-cron');
 const axios = require('axios');
 const twilio = require('twilio');
 const User = require('./models/User');
-
 const app = express();
 app.use(express.json());
 
