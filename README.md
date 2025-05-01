@@ -1,0 +1,105 @@
+### 🌧️ Rain Alert WhatsApp Bot
+
+Automatically receive WhatsApp notifications when it's about to rain in your area! This full-stack web application allows users to register their location and phone number to get timely rain alerts via WhatsApp.
+
+
+
+## 🚀 Features
+
+- 🌍 User registration with location and phone number via a React frontend  
+- ☁️ Periodic weather checks using the OpenWeatherMap API  
+- 📦 Backend built with Node.js and Express, using MongoDB for data storage  
+- 📲 WhatsApp alerts delivered via Twilio when rain is forecasted  
+- 🕒 Hourly cron job to check and notify all affected users  
+- 🔔 Manual test alert trigger to verify notification setup  
+
+
+
+## 🛠️ Tech Stack
+
+**Frontend:**  
+- React  
+- Axios  
+
+**Backend:**  
+- Node.js  
+- Express  
+- MongoDB (Mongoose)  
+- Twilio API  
+- OpenWeatherMap API  
+- node-cron  
+
+
+
+## 📦 Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/ermadhav/rain-alert-whatsapp-bot.git
+cd rain-alert-whatsapp-bot
+```
+
+### 2. Setup environment variables
+
+Create a `.env` file in the root of the backend directory and add:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+OPENWEATHER_API_KEY=your_openweathermap_api_key
+TWILIO_ACCOUNT_SID=your_twilio_account_sid
+TWILIO_AUTH_TOKEN=your_twilio_auth_token
+TWILIO_PHONE_NUMBER=your_twilio_phone_number
+```
+
+### 3. Install dependencies
+
+#### Backend
+```bash
+cd server
+npm install
+```
+
+#### Frontend
+```bash
+cd ../client
+npm install
+```
+
+
+
+## ▶️ Running the App
+
+### Start Backend
+```bash
+cd server
+npm start
+```
+
+### Start Frontend
+```bash
+cd ../client
+npm start
+```
+
+The frontend will be available at `http://localhost:3000` and the backend at `http://localhost:5000`.
+
+## 📬 Get in Touch
+
+Made with ❤️ by [**Madhav Tiwari**](https://github.com/ermadhav)  
+Have a question, idea, or just want to say hi?  
+👉 Open an issue or reach out directly!
+
+## 🙌 Want to Contribute?
+
+We love contributions! 💡✨  
+- Found a bug? Fix it! 🐞  
+- Got an idea? Share it! 💬  
+- Made an improvement? Send a pull request! 🚀  
+
+For major changes, please open an issue first to discuss what you have in mind.
+
+## 📄 License
+
+📝 **MIT License** — use it, modify it, share it!  
+Just don’t forget to include the original license and give proper credit.  
+No warranties, no liabilities — it's all yours to play with! 😄  
