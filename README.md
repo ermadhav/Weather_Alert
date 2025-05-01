@@ -121,11 +121,7 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-Created by [Your Name](https://github.com/ermadhav)  
+Created by [Madhav Tiwari](https://github.com/ermadhav)  
 For any questions, feel free to open an issue or contact directly.
 
 ```
-
----
-
-Would you like me to generate a logo or diagram to include in the README as well?
