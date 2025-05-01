@@ -35,7 +35,7 @@ Automatically receive WhatsApp notifications when it's about to rain in your are
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/rain-alert-whatsapp-bot.git
+git clone https://github.com/ermadhav/rain-alert-whatsapp-bot.git
 cd rain-alert-whatsapp-bot
 ```
 
